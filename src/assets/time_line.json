@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Project Initiation",
+    "description": "Establishment of research objectives and team formation",
+    "date": "January 2023",
+    "color": "total",
+    "icon": "mdi-flag",
+    "details": "Initial project planning phase including stakeholder meetings, resource allocation, and research framework development. Team members from various institutions were onboarded and initial data collection strategies were formulated."
+  },
+  {
+    "title": "Data Collection Phase",
+    "description": "Comprehensive data gathering from multiple sources",
+    "date": "March 2023",
+    "color": "power",
+    "icon": "mdi-database",
+    "details": "Systematic collection of energy consumption data, economic indicators, and environmental metrics from government databases, academic research, and industry reports. Data validation protocols were established to ensure accuracy and reliability."
+  },
+  {
+    "title": "Analysis & Modeling",
+    "description": "Statistical analysis and predictive modeling",
+    "date": "June 2023",
+    "color": "traffic",
+    "icon": "mdi-chart-line",
+    "details": "Advanced statistical analysis using multiple regression models, time series analysis, and machine learning algorithms. Development of predictive models for energy consumption patterns and environmental impact assessment."
+  },
+  {
+    "title": "Interim Report",
+    "description": "Preliminary findings and methodology validation",
+    "date": "September 2023",
+    "color": "industrial",
+    "icon": "mdi-file-document",
+    "details": "Publication of interim research findings with preliminary conclusions. Peer review process initiated and methodology validation through expert consultations. Stakeholder feedback incorporated into final analysis."
+  },
+  {
+    "title": "Final Analysis",
+    "description": "Comprehensive data synthesis and conclusion",
+    "date": "December 2023",
+    "color": "primary",
+    "icon": "mdi-check-circle",
+    "details": "Final data synthesis incorporating all collected information and stakeholder feedback. Development of comprehensive visualizations and interactive dashboards for data presentation."
+  },
+  {
+    "title": "Report Publication",
+    "description": "Final report release and dissemination",
+    "date": "March 2024",
+    "color": "secondary",
+    "icon": "mdi-trophy",
+    "details": "Publication of final research report with complete findings, methodology documentation, and policy recommendations. Launch of interactive website for public access to research data and visualizations."
+  }
+]

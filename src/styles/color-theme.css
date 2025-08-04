@@ -1,0 +1,162 @@
+/* Indian Website Color Theme - Global Styles */
+
+/* CSS Custom Properties for easy access to colors */
+:root {
+  /* Primary colors */
+  --primary-bg: #1E324F;
+  --secondary-bg: #F5F6FA;
+  --accent-bg: #ECE1C5;
+  
+  /* Text colors */
+  --primary-text: #FFFFFF;
+  --secondary-text: #2F3E4E;
+  
+  /* Interactive colors */
+  --highlight: #426B8D;
+  --hover: #D6E4F0;
+  --download: #2D3D59;
+  
+  /* Chart colors */
+  --chart-2025: #3878C3;
+  --chart-2024: #555555;
+  --chart-2023: #A0AABA;
+  
+  /* Data visualization colors */
+  --total: #3B6DFF;
+  --power: #E6BD4F;
+  --traffic: #88A941;
+  --residential-scope1: #D5A6D0;
+  --residential-scope2: #A65CA1;
+  --industrial: #E57A33;
+  --aviation: #457B63;
+  --power-pm25: #3D3C38;
+}
+
+/* Global background styles */
+body {
+  background-color: var(--secondary-bg);
+  color: var(--secondary-text);
+}
+
+/* Header styles */
+.header-primary {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+/* Navigation styles */
+.nav-primary {
+  background-color: var(--primary-bg);
+}
+
+.nav-primary .v-btn {
+  color: var(--primary-text);
+}
+
+.nav-primary .v-btn:hover {
+  background-color: var(--hover);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--highlight);
+  color: var(--primary-text);
+}
+
+.btn-primary:hover {
+  background-color: var(--download);
+}
+
+.btn-download {
+  background-color: var(--download);
+  color: var(--primary-text);
+}
+
+.btn-download:hover {
+  background-color: var(--primary-bg);
+}
+
+/* Card styles */
+.card-accent {
+  background-color: var(--accent-bg);
+  color: var(--secondary-text);
+}
+
+/* Section divider styles */
+.section-divider {
+  background-color: var(--accent-bg);
+  height: 2px;
+  margin: 2rem 0;
+}
+
+/* Chart line styles */
+.chart-line-2025 {
+  stroke: var(--chart-2025);
+}
+
+.chart-line-2024 {
+  stroke: var(--chart-2024);
+}
+
+.chart-line-2023 {
+  stroke: var(--chart-2023);
+}
+
+/* Data visualization styles */
+.chart-total {
+  stroke: var(--total);
+  fill: var(--total);
+}
+
+.chart-power {
+  stroke: var(--power);
+  fill: var(--power);
+}
+
+.chart-traffic {
+  stroke: var(--traffic);
+  fill: var(--traffic);
+}
+
+.chart-residential-scope1 {
+  stroke: var(--residential-scope1);
+  fill: var(--residential-scope1);
+}
+
+.chart-residential-scope2 {
+  stroke: var(--residential-scope2);
+  fill: var(--residential-scope2);
+}
+
+.chart-industrial {
+  stroke: var(--industrial);
+  fill: var(--industrial);
+}
+
+.chart-aviation {
+  stroke: var(--aviation);
+  fill: var(--aviation);
+}
+
+.chart-power-pm25 {
+  stroke: var(--power-pm25);
+  fill: var(--power-pm25);
+}
+
+/* Tooltip styles */
+.tooltip-custom {
+  background-color: var(--hover);
+  color: var(--secondary-text);
+  border: 1px solid var(--highlight);
+}
+
+/* Responsive text color adjustments */
+@media (max-width: 768px) {
+  .mobile-text-primary {
+    color: var(--primary-text);
+  }
+  
+  .mobile-bg-primary {
+    background-color: var(--primary-bg);
+  }
+} 

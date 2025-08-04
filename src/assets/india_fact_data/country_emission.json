@@ -1,0 +1,1034 @@
+[
+    {
+        "sector": "China",
+        "name": "China",
+        "data": [
+            {
+                "timestamp": 1960,
+                "value": 798.7999
+            },
+            {
+                "timestamp": 1961,
+                "value": 570.6302
+            },
+            {
+                "timestamp": 1962,
+                "value": 459.6181
+            },
+            {
+                "timestamp": 1963,
+                "value": 456.7794
+            },
+            {
+                "timestamp": 1964,
+                "value": 460.6371
+            },
+            {
+                "timestamp": 1965,
+                "value": 500.2864
+            },
+            {
+                "timestamp": 1966,
+                "value": 549.4593
+            },
+            {
+                "timestamp": 1967,
+                "value": 460.2259
+            },
+            {
+                "timestamp": 1968,
+                "value": 495.5066
+            },
+            {
+                "timestamp": 1969,
+                "value": 607.6834
+            },
+            {
+                "timestamp": 1970,
+                "value": 807.9526
+            },
+            {
+                "timestamp": 1971,
+                "value": 909.2097
+            },
+            {
+                "timestamp": 1972,
+                "value": 968.6456
+            },
+            {
+                "timestamp": 1973,
+                "value": 1008.2926
+            },
+            {
+                "timestamp": 1974,
+                "value": 1028.0999
+            },
+            {
+                "timestamp": 1975,
+                "value": 1183.215
+            },
+            {
+                "timestamp": 1976,
+                "value": 1226.4213
+            },
+            {
+                "timestamp": 1977,
+                "value": 1340.8311
+            },
+            {
+                "timestamp": 1978,
+                "value": 1492.7778
+            },
+            {
+                "timestamp": 1979,
+                "value": 1525.6611
+            },
+            {
+                "timestamp": 1980,
+                "value": 1494.4959
+            },
+            {
+                "timestamp": 1981,
+                "value": 1476.4879
+            },
+            {
+                "timestamp": 1982,
+                "value": 1606.585
+            },
+            {
+                "timestamp": 1983,
+                "value": 1694.2168
+            },
+            {
+                "timestamp": 1984,
+                "value": 1844.828
+            },
+            {
+                "timestamp": 1985,
+                "value": 1998.0829
+            },
+            {
+                "timestamp": 1986,
+                "value": 2104.2134
+            },
+            {
+                "timestamp": 1987,
+                "value": 2257.7385
+            },
+            {
+                "timestamp": 1988,
+                "value": 2425.8936
+            },
+            {
+                "timestamp": 1989,
+                "value": 2463.6544
+            },
+            {
+                "timestamp": 1990,
+                "value": 2484.8548
+            },
+            {
+                "timestamp": 1991,
+                "value": 2606.0962
+            },
+            {
+                "timestamp": 1992,
+                "value": 2730.7876
+            },
+            {
+                "timestamp": 1993,
+                "value": 2921.651
+            },
+            {
+                "timestamp": 1994,
+                "value": 3103.7387
+            },
+            {
+                "timestamp": 1995,
+                "value": 3361.6372
+            },
+            {
+                "timestamp": 1996,
+                "value": 3508.8181
+            },
+            {
+                "timestamp": 1997,
+                "value": 3515.5942
+            },
+            {
+                "timestamp": 1998,
+                "value": 3364.5876
+            },
+            {
+                "timestamp": 1999,
+                "value": 3557.2746
+            },
+            {
+                "timestamp": 2000,
+                "value": 3649.2009
+            },
+            {
+                "timestamp": 2001,
+                "value": 3728.5135
+            },
+            {
+                "timestamp": 2002,
+                "value": 4103.0427
+            },
+            {
+                "timestamp": 2003,
+                "value": 4841.1187
+            },
+            {
+                "timestamp": 2004,
+                "value": 5217.3509
+            },
+            {
+                "timestamp": 2005,
+                "value": 5882.1429
+            },
+            {
+                "timestamp": 2006,
+                "value": 6494.3381
+            },
+            {
+                "timestamp": 2007,
+                "value": 6983.5767
+            },
+            {
+                "timestamp": 2008,
+                "value": 7501.4978
+            },
+            {
+                "timestamp": 2009,
+                "value": 7891.0893
+            },
+            {
+                "timestamp": 2010,
+                "value": 8620.6268
+            },
+            {
+                "timestamp": 2011,
+                "value": 9532.4091
+            },
+            {
+                "timestamp": 2012,
+                "value": 9779.3544
+            },
+            {
+                "timestamp": 2013,
+                "value": 9956.3762
+            },
+            {
+                "timestamp": 2014,
+                "value": 9998.674
+            },
+            {
+                "timestamp": 2015,
+                "value": 9866.9514
+            },
+            {
+                "timestamp": 2016,
+                "value": 9765.0295
+            },
+            {
+                "timestamp": 2017,
+                "value": 10011.1517
+            },
+            {
+                "timestamp": 2018,
+                "value": 10353.9345
+            },
+            {
+                "timestamp": 2019,
+                "value": 10721.042
+            },
+            {
+                "timestamp": 2020,
+                "value": 10914.0122
+            },
+            {
+                "timestamp": 2021,
+                "value": 11336.2339
+            },
+            {
+                "timestamp": 2022,
+                "value": 11396.7774
+            }
+        ]
+    },
+    {
+        "sector": "EU27",
+        "name": "EU27",
+        "data": [
+            {
+                "timestamp": 1960,
+                "value": 2099.3709
+            },
+            {
+                "timestamp": 1961,
+                "value": 2198.9857
+            },
+            {
+                "timestamp": 1962,
+                "value": 2353.8905
+            },
+            {
+                "timestamp": 1963,
+                "value": 2512.1898
+            },
+            {
+                "timestamp": 1964,
+                "value": 2643.4003
+            },
+            {
+                "timestamp": 1965,
+                "value": 2676.2112
+            },
+            {
+                "timestamp": 1966,
+                "value": 2757.7269
+            },
+            {
+                "timestamp": 1967,
+                "value": 2819.3347
+            },
+            {
+                "timestamp": 1968,
+                "value": 2992.5746
+            },
+            {
+                "timestamp": 1969,
+                "value": 3191.2181
+            },
+            {
+                "timestamp": 1970,
+                "value": 3330.6823
+            },
+            {
+                "timestamp": 1971,
+                "value": 3424.5516
+            },
+            {
+                "timestamp": 1972,
+                "value": 3554.761
+            },
+            {
+                "timestamp": 1973,
+                "value": 3727.9233
+            },
+            {
+                "timestamp": 1974,
+                "value": 3708.6784
+            },
+            {
+                "timestamp": 1975,
+                "value": 3635.9884
+            },
+            {
+                "timestamp": 1976,
+                "value": 3911.7103
+            },
+            {
+                "timestamp": 1977,
+                "value": 3873.171
+            },
+            {
+                "timestamp": 1978,
+                "value": 4003.6643
+            },
+            {
+                "timestamp": 1979,
+                "value": 4113.1355
+            },
+            {
+                "timestamp": 1980,
+                "value": 4077.5007
+            },
+            {
+                "timestamp": 1981,
+                "value": 3863.3812
+            },
+            {
+                "timestamp": 1982,
+                "value": 3771.411
+            },
+            {
+                "timestamp": 1983,
+                "value": 3728.4859
+            },
+            {
+                "timestamp": 1984,
+                "value": 3763.5937
+            },
+            {
+                "timestamp": 1985,
+                "value": 3820.5809
+            },
+            {
+                "timestamp": 1986,
+                "value": 3805.261
+            },
+            {
+                "timestamp": 1987,
+                "value": 3839.6359
+            },
+            {
+                "timestamp": 1988,
+                "value": 3797.8931
+            },
+            {
+                "timestamp": 1989,
+                "value": 3835.0371
+            },
+            {
+                "timestamp": 1990,
+                "value": 3870.4273
+            },
+            {
+                "timestamp": 1991,
+                "value": 3804.5575
+            },
+            {
+                "timestamp": 1992,
+                "value": 3678.6234
+            },
+            {
+                "timestamp": 1993,
+                "value": 3609.8379
+            },
+            {
+                "timestamp": 1994,
+                "value": 3590.7623
+            },
+            {
+                "timestamp": 1995,
+                "value": 3637.058
+            },
+            {
+                "timestamp": 1996,
+                "value": 3721.9121
+            },
+            {
+                "timestamp": 1997,
+                "value": 3655.5349
+            },
+            {
+                "timestamp": 1998,
+                "value": 3645.8324
+            },
+            {
+                "timestamp": 1999,
+                "value": 3590.3608
+            },
+            {
+                "timestamp": 2000,
+                "value": 3601.5088
+            },
+            {
+                "timestamp": 2001,
+                "value": 3658.2652
+            },
+            {
+                "timestamp": 2002,
+                "value": 3658.9049
+            },
+            {
+                "timestamp": 2003,
+                "value": 3743.0828
+            },
+            {
+                "timestamp": 2004,
+                "value": 3753.9955
+            },
+            {
+                "timestamp": 2005,
+                "value": 3734.8554
+            },
+            {
+                "timestamp": 2006,
+                "value": 3744.5274
+            },
+            {
+                "timestamp": 2007,
+                "value": 3708.2448
+            },
+            {
+                "timestamp": 2008,
+                "value": 3624.3587
+            },
+            {
+                "timestamp": 2009,
+                "value": 3330.5235
+            },
+            {
+                "timestamp": 2010,
+                "value": 3431.4449
+            },
+            {
+                "timestamp": 2011,
+                "value": 3330.9133
+            },
+            {
+                "timestamp": 2012,
+                "value": 3258.4293
+            },
+            {
+                "timestamp": 2013,
+                "value": 3178.5251
+            },
+            {
+                "timestamp": 2014,
+                "value": 3041.5813
+            },
+            {
+                "timestamp": 2015,
+                "value": 3092.7619
+            },
+            {
+                "timestamp": 2016,
+                "value": 3097.9963
+            },
+            {
+                "timestamp": 2017,
+                "value": 3119.7821
+            },
+            {
+                "timestamp": 2018,
+                "value": 3046.2395
+            },
+            {
+                "timestamp": 2019,
+                "value": 2904.162
+            },
+            {
+                "timestamp": 2020,
+                "value": 2629.9706
+            },
+            {
+                "timestamp": 2021,
+                "value": 2805.7617
+            },
+            {
+                "timestamp": 2022,
+                "value": 2761.9071
+            }
+        ]
+    },
+    {
+        "sector": "India",
+        "name": "India",
+        "data": [
+            {
+                "timestamp": 1960,
+                "value": 111.3251
+            },
+            {
+                "timestamp": 1961,
+                "value": 120.4043
+            },
+            {
+                "timestamp": 1962,
+                "value": 132.5815
+            },
+            {
+                "timestamp": 1963,
+                "value": 142.4441
+            },
+            {
+                "timestamp": 1964,
+                "value": 139.4883
+            },
+            {
+                "timestamp": 1965,
+                "value": 153.7019
+            },
+            {
+                "timestamp": 1966,
+                "value": 159.3734
+            },
+            {
+                "timestamp": 1967,
+                "value": 159.5558
+            },
+            {
+                "timestamp": 1968,
+                "value": 174.0693
+            },
+            {
+                "timestamp": 1969,
+                "value": 177.4134
+            },
+            {
+                "timestamp": 1970,
+                "value": 181.7226
+            },
+            {
+                "timestamp": 1971,
+                "value": 191.9637
+            },
+            {
+                "timestamp": 1972,
+                "value": 203.036
+            },
+            {
+                "timestamp": 1973,
+                "value": 209.095
+            },
+            {
+                "timestamp": 1974,
+                "value": 215.8532
+            },
+            {
+                "timestamp": 1975,
+                "value": 234.2091
+            },
+            {
+                "timestamp": 1976,
+                "value": 244.7494
+            },
+            {
+                "timestamp": 1977,
+                "value": 258.9617
+            },
+            {
+                "timestamp": 1978,
+                "value": 263.1496
+            },
+            {
+                "timestamp": 1979,
+                "value": 276.2847
+            },
+            {
+                "timestamp": 1980,
+                "value": 291.7111
+            },
+            {
+                "timestamp": 1981,
+                "value": 314.9662
+            },
+            {
+                "timestamp": 1982,
+                "value": 325.38
+            },
+            {
+                "timestamp": 1983,
+                "value": 352.1988
+            },
+            {
+                "timestamp": 1984,
+                "value": 361.5594
+            },
+            {
+                "timestamp": 1985,
+                "value": 397.5921
+            },
+            {
+                "timestamp": 1986,
+                "value": 426.3094
+            },
+            {
+                "timestamp": 1987,
+                "value": 455.3431
+            },
+            {
+                "timestamp": 1988,
+                "value": 491.6922
+            },
+            {
+                "timestamp": 1989,
+                "value": 540.651
+            },
+            {
+                "timestamp": 1990,
+                "value": 577.996
+            },
+            {
+                "timestamp": 1991,
+                "value": 615.365
+            },
+            {
+                "timestamp": 1992,
+                "value": 655.447
+            },
+            {
+                "timestamp": 1993,
+                "value": 677.2992
+            },
+            {
+                "timestamp": 1994,
+                "value": 714.0637
+            },
+            {
+                "timestamp": 1995,
+                "value": 760.4616
+            },
+            {
+                "timestamp": 1996,
+                "value": 823.6206
+            },
+            {
+                "timestamp": 1997,
+                "value": 858.0112
+            },
+            {
+                "timestamp": 1998,
+                "value": 875.7723
+            },
+            {
+                "timestamp": 1999,
+                "value": 950.4598
+            },
+            {
+                "timestamp": 2000,
+                "value": 977.5264
+            },
+            {
+                "timestamp": 2001,
+                "value": 990.9695
+            },
+            {
+                "timestamp": 2002,
+                "value": 1021.6644
+            },
+            {
+                "timestamp": 2003,
+                "value": 1059.1595
+            },
+            {
+                "timestamp": 2004,
+                "value": 1125.0963
+            },
+            {
+                "timestamp": 2005,
+                "value": 1185.6742
+            },
+            {
+                "timestamp": 2006,
+                "value": 1292.4846
+            },
+            {
+                "timestamp": 2007,
+                "value": 1392.506
+            },
+            {
+                "timestamp": 2008,
+                "value": 1489.4375
+            },
+            {
+                "timestamp": 2009,
+                "value": 1612.2163
+            },
+            {
+                "timestamp": 2010,
+                "value": 1677.3372
+            },
+            {
+                "timestamp": 2011,
+                "value": 1764.7124
+            },
+            {
+                "timestamp": 2012,
+                "value": 1925.6997
+            },
+            {
+                "timestamp": 2013,
+                "value": 1995.0981
+            },
+            {
+                "timestamp": 2014,
+                "value": 2148.3437
+            },
+            {
+                "timestamp": 2015,
+                "value": 2234.2195
+            },
+            {
+                "timestamp": 2016,
+                "value": 2354.658
+            },
+            {
+                "timestamp": 2017,
+                "value": 2426.6069
+            },
+            {
+                "timestamp": 2018,
+                "value": 2593.0579
+            },
+            {
+                "timestamp": 2019,
+                "value": 2612.888
+            },
+            {
+                "timestamp": 2020,
+                "value": 2421.5523
+            },
+            {
+                "timestamp": 2021,
+                "value": 2674.2219
+            },
+            {
+                "timestamp": 2022,
+                "value": 2829.6442
+            }
+        ]
+    },
+    {
+        "sector": "USA",
+        "name": "USA",
+        "data": [
+            {
+                "timestamp": 1960,
+                "value": 2897.3153
+            },
+            {
+                "timestamp": 1961,
+                "value": 2886.8727
+            },
+            {
+                "timestamp": 1962,
+                "value": 2993.902
+            },
+            {
+                "timestamp": 1963,
+                "value": 3126.4875
+            },
+            {
+                "timestamp": 1964,
+                "value": 3264.3138
+            },
+            {
+                "timestamp": 1965,
+                "value": 3399.5468
+            },
+            {
+                "timestamp": 1966,
+                "value": 3571.4213
+            },
+            {
+                "timestamp": 1967,
+                "value": 3705.461
+            },
+            {
+                "timestamp": 1968,
+                "value": 3840.9196
+            },
+            {
+                "timestamp": 1969,
+                "value": 4035.1453
+            },
+            {
+                "timestamp": 1970,
+                "value": 4339.686
+            },
+            {
+                "timestamp": 1971,
+                "value": 4365.4653
+            },
+            {
+                "timestamp": 1972,
+                "value": 4573.0154
+            },
+            {
+                "timestamp": 1973,
+                "value": 4785.103
+            },
+            {
+                "timestamp": 1974,
+                "value": 4621.0998
+            },
+            {
+                "timestamp": 1975,
+                "value": 4478.2749
+            },
+            {
+                "timestamp": 1976,
+                "value": 4747.8174
+            },
+            {
+                "timestamp": 1977,
+                "value": 4889.6653
+            },
+            {
+                "timestamp": 1978,
+                "value": 4941.4227
+            },
+            {
+                "timestamp": 1979,
+                "value": 5008.6418
+            },
+            {
+                "timestamp": 1980,
+                "value": 4808.5564
+            },
+            {
+                "timestamp": 1981,
+                "value": 4686.4202
+            },
+            {
+                "timestamp": 1982,
+                "value": 4447.2979
+            },
+            {
+                "timestamp": 1983,
+                "value": 4429.4231
+            },
+            {
+                "timestamp": 1984,
+                "value": 4662.1745
+            },
+            {
+                "timestamp": 1985,
+                "value": 4652.633
+            },
+            {
+                "timestamp": 1986,
+                "value": 4663.4296
+            },
+            {
+                "timestamp": 1987,
+                "value": 4825.7117
+            },
+            {
+                "timestamp": 1988,
+                "value": 5050.5434
+            },
+            {
+                "timestamp": 1989,
+                "value": 5132.2063
+            },
+            {
+                "timestamp": 1990,
+                "value": 5120.9572
+            },
+            {
+                "timestamp": 1991,
+                "value": 5062.9567
+            },
+            {
+                "timestamp": 1992,
+                "value": 5174.2275
+            },
+            {
+                "timestamp": 1993,
+                "value": 5272.8508
+            },
+            {
+                "timestamp": 1994,
+                "value": 5364.2793
+            },
+            {
+                "timestamp": 1995,
+                "value": 5425.2597
+            },
+            {
+                "timestamp": 1996,
+                "value": 5612.9828
+            },
+            {
+                "timestamp": 1997,
+                "value": 5688.1425
+            },
+            {
+                "timestamp": 1998,
+                "value": 5733.2806
+            },
+            {
+                "timestamp": 1999,
+                "value": 5803.9178
+            },
+            {
+                "timestamp": 2000,
+                "value": 6010.1359
+            },
+            {
+                "timestamp": 2001,
+                "value": 5907.7399
+            },
+            {
+                "timestamp": 2002,
+                "value": 5946.3081
+            },
+            {
+                "timestamp": 2003,
+                "value": 6010.1455
+            },
+            {
+                "timestamp": 2004,
+                "value": 6112.6546
+            },
+            {
+                "timestamp": 2005,
+                "value": 6132.1833
+            },
+            {
+                "timestamp": 2006,
+                "value": 6052.6862
+            },
+            {
+                "timestamp": 2007,
+                "value": 6130.1228
+            },
+            {
+                "timestamp": 2008,
+                "value": 5915.1185
+            },
+            {
+                "timestamp": 2009,
+                "value": 5480.7257
+            },
+            {
+                "timestamp": 2010,
+                "value": 5679.7152
+            },
+            {
+                "timestamp": 2011,
+                "value": 5546.1161
+            },
+            {
+                "timestamp": 2012,
+                "value": 5344.086
+            },
+            {
+                "timestamp": 2013,
+                "value": 5480.1565
+            },
+            {
+                "timestamp": 2014,
+                "value": 5528.6811
+            },
+            {
+                "timestamp": 2015,
+                "value": 5376.4731
+            },
+            {
+                "timestamp": 2016,
+                "value": 5252.9322
+            },
+            {
+                "timestamp": 2017,
+                "value": 5212.1623
+            },
+            {
+                "timestamp": 2018,
+                "value": 5377.7974
+            },
+            {
+                "timestamp": 2019,
+                "value": 5262.1451
+            },
+            {
+                "timestamp": 2020,
+                "value": 4714.628
+            },
+            {
+                "timestamp": 2021,
+                "value": 5032.2128
+            },
+            {
+                "timestamp": 2022,
+                "value": 5057.3038
+            }
+        ]
+    }
+]
