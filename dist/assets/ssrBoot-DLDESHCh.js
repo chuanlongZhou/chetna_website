@@ -1,0 +1,1 @@
+import{s as o,x as t,t as e,as as n}from"./index-D_P9Sylj.js";const i="/assets/CHETNA-DjDRRjIH.svg";function u(){const s=o(!1);return t(()=>{window.requestAnimationFrame(()=>{s.value=!0})}),{ssrBootStyles:e(()=>s.value?void 0:{transition:"none !important"}),isBooted:n(s)}}export{i as _,u};

@@ -59,8 +59,7 @@
                                                        <!-- References Section at Bottom -->
                <v-card-text class="pa-4 bg-grey-lighten-5">
                    <div class="references-section">
-                       <h4 class="text-subtitle-1 font-weight-bold mb-2">
-                           <v-icon class="mr-2 mt-0" size="small">mdi-book-open-variant</v-icon>
+                       <h4 class="text-subtitle-2 font-weight-bold mb-2">
                            References
                        </h4>
                        <div class="references-list">
@@ -225,7 +224,7 @@ const closeDialog = () => {
   
   .reference-text {
       flex: 1;
-      font-size: 0.875rem;
+      font-size: 0.75rem;
       line-height: 1.4;
       color: #333;
       display: flex;

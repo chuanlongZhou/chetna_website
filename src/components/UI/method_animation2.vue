@@ -22,26 +22,26 @@
                     <v-card ref="card1" class="col1-card px-4 py-1 d-flex align-center text-center" color="#c95d26"
                         dark :class="{ 'animate-in': card1Visible }">
                         <div class="d-flex align-center">
-                            <v-img src="/src/assets/icons/icon1.png" width="35" height="35" class="mr-4"></v-img>
+                            <v-img :src="icon1Url" width="35" height="35" class="mr-4"></v-img>
                             <span>Open-Source Data</span>
                         </div>
                     </v-card>
                     <v-card ref="card2" class="col1-card px-4 d-flex align-center text-center"
                         color="deep-purple accent-3" dark :class="{ 'animate-in': card2Visible }">
                         <div class="d-flex align-center">
-                            <v-img src="/src/assets/icons/icon2.png" width="35" height="35" class="mr-4"></v-img>
+                            <v-img :src="icon2Url" width="35" height="35" class="mr-4"></v-img>
                             <span>Machine Learning</span>
                         </div>
                     </v-card>
                     <v-card ref="card3" class="col1-card px-4 d-flex align-center" color="#2e5ae8" dark :class="{ 'animate-in': card3Visible }">
                         <div class="d-flex align-center">
-                            <v-img src="/src/assets/icons/icon3.png" width="35" height="35" class="mr-4"></v-img>
+                            <v-img :src="icon3Url" width="35" height="35" class="mr-4"></v-img>
                             <span>Physical Network Model</span>
                         </div>
                     </v-card>
                     <v-card ref="card4" class="col1-card px-4 d-flex align-center text-center" color="#429106" dark :class="{ 'animate-in': card4Visible }">
                         <div class="d-flex align-center">
-                            <v-img src="/src/assets/icons/icon4.png" width="35" height="35" class="mr-4"></v-img>
+                            <v-img :src="icon4Url" width="35" height="35" class="mr-4"></v-img>
                             <span>Satellite Imagery</span>
                         </div>
                     </v-card>
@@ -157,28 +157,28 @@
                             <div class="mb-4 d-flex flex-column align-center" :class="{ 'animate-in': sector1Visible }" @click="handleSectorClick('power')" style="cursor: pointer;">
                                 <div
                                     class="sector-card-circle mb-2 d-flex align-center justify-center bg-yellow-darken-2 flash-effect">
-                                    <v-img src="/src/assets/icons/sector1.png" width="40" height="40"></v-img>
+                                    <v-img :src="sector1Url" width="40" height="40"></v-img>
                                 </div>
                                 <span class="text-center sector-card-text">Power</span>
                             </div>
                             <div class="mb-4 d-flex flex-column align-center" :class="{ 'animate-in': sector2Visible }" @click="handleSectorClick('industry')" style="cursor: pointer;">
                                 <div
                                     class="sector-card-circle mb-2 d-flex align-center justify-center bg-grey-darken-2">
-                                    <v-img src="/src/assets/icons/sector2.png" width="40" height="40"></v-img>
+                                    <v-img :src="sector2Url" width="40" height="40"></v-img>
                                 </div>
                                 <span class="text-center sector-card-text">Large Industry</span>
                             </div>
-                            <div class="mb-4 d-flex flex-column align-center" :class="{ 'animate-in': sector3Visible }" @click="handleSectorClick('industry')" style="cursor: pointer;">
+                            <div class="mb-4 d-flex flex-column align-center" :class="{ 'animate-in': sector3Visible }" @click="handleSectorClick('brick')" style="cursor: pointer;">
                                 <div
                                     class="sector-card-circle mb-2 d-flex align-center justify-center bg-blue-grey-lighten-2">
-                                    <v-img src="/src/assets/icons/sector3.png" width="40" height="40"></v-img>
+                                    <v-img :src="sector3Url" width="40" height="40"></v-img>
                                 </div>
                                 <span class="text-center sector-card-text">Small Industry</span>
                             </div>
                             <div class="d-flex flex-column align-center" :class="{ 'animate-in': sector6Visible }" @click="handleSectorClick('aviation')" style="cursor: pointer;">
                                 <div
                                     class="sector-card-circle mb-2 d-flex align-center justify-center bg-teal-darken-2">
-                                    <v-img src="/src/assets/icons/sector6.png" width="40" height="40"></v-img>
+                                    <v-img :src="sector6Url" width="40" height="40"></v-img>
                                 </div>
                                 <span class="text-center sector-card-text">Aviation</span>
                             </div>
@@ -193,20 +193,20 @@
                             <div class="mb-4 d-flex flex-column align-center" :class="{ 'animate-in': sector4Visible }" @click="handleSectorClick('residential')" style="cursor: pointer;">
                                 <div
                                     class="sector-card-rect mb-2 d-flex align-center justify-center bg-purple-lighten-2">
-                                    <v-img src="/src/assets/icons/sector4.png" width="50" height="50"></v-img>
+                                    <v-img :src="sector4Url" width="50" height="50"></v-img>
                                 </div>
                                 <span class="text-center sector-card-text">Residential Scope-1</span>
                             </div>
                             <div class="mb-4 d-flex flex-column align-center" :class="{ 'animate-in': sector7Visible }" @click="handleSectorClick('residential')" style="cursor: pointer;">
                                 <div
                                     class="sector-card-rect mb-2 d-flex align-center justify-center bg-deep-purple-lighten-4">
-                                    <v-img src="/src/assets/icons/sector7.png" width="50" height="50"></v-img>
+                                    <v-img :src="sector7Url" width="50" height="50"></v-img>
                                 </div>
                                 <span class="text-center sector-card-text">Residential Scope-2</span>
                             </div>
                             <div class="d-flex flex-column align-center" :class="{ 'animate-in': sector5Visible }" @click="handleSectorClick('traffic')" style="cursor: pointer;">
                                 <div class="sector-card-rect mb-2 d-flex align-center justify-center bg-green-darken-1">
-                                    <v-img src="/src/assets/icons/sector5.png" width="50" height="50"></v-img>
+                                    <v-img :src="sector5Url" width="50" height="50"></v-img>
                                 </div>
                                 <span class="text-center sector-card-text">Ground Transport</span>
                             </div>
@@ -239,6 +239,19 @@
 import { onMounted, ref, nextTick, computed, onUnmounted } from 'vue'
 import { useAppStore } from '@/stores/app'
 import MethodPopup from './MethodPopup.vue'
+
+// Computed properties for image URLs
+const icon1Url = computed(() => new URL('../../assets/icons/icon1.png', import.meta.url).href)
+const icon2Url = computed(() => new URL('../../assets/icons/icon2.png', import.meta.url).href)
+const icon3Url = computed(() => new URL('../../assets/icons/icon3.png', import.meta.url).href)
+const icon4Url = computed(() => new URL('../../assets/icons/icon4.png', import.meta.url).href)
+const sector1Url = computed(() => new URL('../../assets/icons/sector1.png', import.meta.url).href)
+const sector2Url = computed(() => new URL('../../assets/icons/sector2.png', import.meta.url).href)
+const sector3Url = computed(() => new URL('../../assets/icons/sector3.png', import.meta.url).href)
+const sector4Url = computed(() => new URL('../../assets/icons/sector4.png', import.meta.url).href)
+const sector5Url = computed(() => new URL('../../assets/icons/sector5.png', import.meta.url).href)
+const sector6Url = computed(() => new URL('../../assets/icons/sector6.png', import.meta.url).href)
+const sector7Url = computed(() => new URL('../../assets/icons/sector7.png', import.meta.url).href)
 
 const layout = ref(null)
 const svgContainer = ref(null)

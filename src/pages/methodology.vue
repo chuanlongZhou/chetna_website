@@ -14,12 +14,22 @@
         </v-col>
       </v-row>
 
-      <v-row justify="center" class="mb-8">
+      <v-row justify="center" class="mb-0">
         <v-col cols="12">
           <MethodAnimation2 />
         </v-col>
+
+        <v-divider class="mb-5"></v-divider>
+          <!-- add  "A Pivotal Decade for India's Energy and Climate Future" as conslusion of this page-->
+          <div class="text-center">
+            <p class="text-h4 font-weight-normal mb-15 mt-5" style="color: #2F3E4E;">
+              Next-Generation Framework Integrating Cutting-Edge Data, Models, and AI
+            </p>
+          </div>
+
       </v-row>
     </div>
+
   </v-container>
 </template>
 

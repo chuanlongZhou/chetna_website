@@ -15,7 +15,7 @@
         paragraph-title="India - Key Player in the Fight Against Climate Change"
         paragraph-text="India's CO₂ emissions are rising as the country undergoes rapid economic and urban growth, recently surpassing the EU to become the world’s third-largest emitter. While historical emissions remain low on a per capita basis, India's future trajectory will significantly impact global climate goals."
         leading-icon="mdi-trending-up"
-        data-url="/src/assets/india_fact_data/20_total_IND_withForecast_data.csv"
+        :data-url="energyDataUrl"
         date-column="Year"
         :data-columns="country_data"
         x-ticks="yearly"
@@ -34,7 +34,7 @@
         paragraph-title="India's Population - Rapid Urbanization"
         paragraph-text="India's population will exceed 1.6 billion by 2050, and India's urban population is projected to triple by then, transforming energy and emissions landscapes through rapidly growing energy demand and urban infrastructure expansion."
         leading-icon="mdi-home-city"
-        data-url="/src/assets/india_fact_data/India_data.csv"
+        :data-url="populationDataUrl"
         date-column="Year"
         :data-columns="urbanGrowthColumns"
         x-ticks="yearly"
@@ -56,7 +56,7 @@
         paragraph-title="India's Energy Mix — Coal Leads the Way"
         paragraph-text="Coal continues to dominate India’s energy mix, with per capita coal consumption rising sharply since 2000. While bioenergy and oil remain significant, their growth has been slower. Despite recent efforts to expand renewables, sources like solar, wind, and hydro contribute only marginally to overall energy use. This heavy reliance on fossil fuels underscores both the urgency and the scale of India’s clean energy transition."
         leading-icon="mdi-lightning-bolt-circle"
-        data-url="/src/assets/india_fact_data/22_EnergyLines_wBio_IND_EJ_percapita_data.csv"
+        :data-url="energyPerCapitaDataUrl"
         date-column="Year"
         :data-columns="energyColumns"
         x-ticks="yearly"
@@ -74,7 +74,7 @@
         paragraph-title="India's Emissions Factors — Rising Energy Carbon Intensity"
         paragraph-text="The CO₂ emitted per unit of energy (CO₂/Energy) has increased steadily since 2000, reflecting a shift toward more carbon-heavy fuels like coal. This means even as India uses energy more efficiently, each unit of energy results in more emissions—posing a major challenge for decarbonization and making clean energy transitions more urgent than ever."
         leading-icon="mdi-key-outline"
-        data-url="/src/assets/india_fact_data/60_KayaFigures_IND_relative_data.csv"
+        :data-url="kayaDataUrl"
         date-column="Year"
         :data-columns="kayaColumns"
         x-ticks="yearly"
@@ -99,9 +99,15 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import TimeSeriesPlot from '../components/viz/TimeSeriesPlot.vue'
 import FactRow from '../components/fact_row.vue'
+
+// Computed properties for data URLs
+const energyDataUrl = computed(() => new URL('../assets/india_fact_data/20_total_IND_withForecast_data.csv', import.meta.url).href)
+const populationDataUrl = computed(() => new URL('../assets/india_fact_data/India_data.csv', import.meta.url).href)
+const energyPerCapitaDataUrl = computed(() => new URL('../assets/india_fact_data/22_EnergyLines_wBio_IND_EJ_percapita_data.csv', import.meta.url).href)
+const kayaDataUrl = computed(() => new URL('../assets/india_fact_data/60_KayaFigures_IND_relative_data.csv', import.meta.url).href)
 
 /**
  * Facts of India page component

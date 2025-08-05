@@ -1,37 +1,48 @@
 <template>
   <div class="timeline-component">
     <v-card elevation="2" class="timeline-card">
-      <v-card-title class="text-h5 font-weight-bold" style="color: #1E324F; background-color: #F5F6FA;">
-        {{ title || 'Timeline' }}
-      </v-card-title>
-      <v-card-text>
-        <v-timeline align="start" density="compact">
-          <v-timeline-item
-            v-for="(item, index) in timelineData"
-            :key="index"
-            :dot-color="item.color || getDefaultColor(index)"
-            size="small"
-            :icon="item.icon || getDefaultIcon(index)"
-          >
+
+      <v-card-text class="py-0">
+        <v-timeline align="center" density="compact">
+          <v-timeline-item v-for="(item, index) in timelineData" :key="index"
+            :dot-color="item.color || getDefaultColor(index)" size="small" :icon="item.icon || getDefaultIcon(index)"
+            fill-dot>
             <template v-slot:opposite>
-              <div class="text-caption font-weight-medium" style="color: #555555;">
-                {{ item.date || `Step ${index + 1}` }}
+              <div class="text-caption font-weight-medium" style="color: #555555; font-size: 0.75rem;">
+                {{ formatYearMonth(item.yearMonth) || item.date || `Step ${index + 1}` }}
               </div>
             </template>
-            <v-card class="timeline-item-card" elevation="1">
+            <v-card class="timeline-item-card" elevation="1" @mouseenter="hoveredIndex = index"
+              @mouseleave="hoveredIndex = null">
               <v-card-title class="text-h6 font-weight-bold" style="color: #1E324F;">
                 {{ item.title }}
               </v-card-title>
+              <v-card-subtitle class="text-caption font-weight-normal" style="color: #666666; padding-top: 0;">
+                {{ formatYearMonth(item.yearMonth) }}
+              </v-card-subtitle>
               <v-card-text class="text-body-2" style="color: #2F3E4E;">
                 {{ item.description }}
               </v-card-text>
+              <v-expand-transition>
+                <div v-show="hoveredIndex === index && item.breakdownTasks">
+                  <v-divider></v-divider>
+                  <v-card-text class="text-body-2" style="color: #555555;">
+                    <div class="text-subtitle-2 font-weight-medium mb-2" style="color: #1E324F;">
+                      Key Tasks:
+                    </div>
+                    <ul class="ma-0 pa-0" style="list-style: none;">
+                      <li v-for="(task, taskIndex) in item.breakdownTasks" :key="taskIndex" class="mb-1"
+                        style="color: #666666;">
+                        <v-icon size="small" color="primary" class="mr-2">mdi-check-circle</v-icon>
+                        {{ task }}
+                      </li>
+                    </ul>
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
               <v-card-actions v-if="item.details">
-                <v-btn
-                  variant="text"
-                  size="small"
-                  :color="item.color || getDefaultColor(index)"
-                  @click="toggleDetails(index)"
-                >
+                <v-btn variant="text" size="small" :color="item.color || getDefaultColor(index)"
+                  @click="toggleDetails(index)">
                   {{ expandedItems[index] ? 'Show Less' : 'Show More' }}
                 </v-btn>
               </v-card-actions>
@@ -74,6 +85,7 @@ const props = defineProps({
 })
 
 const expandedItems = ref({})
+const hoveredIndex = ref(null)
 
 /**
  * Toggle details visibility for a timeline item
@@ -102,6 +114,23 @@ const getDefaultIcon = (index) => {
   const icons = ['mdi-calendar', 'mdi-clock', 'mdi-check-circle', 'mdi-star', 'mdi-flag', 'mdi-trophy']
   return icons[index % icons.length]
 }
+
+/**
+ * Format year-month string to readable format
+ * @param {string} yearMonth - Year-month string in format 'YYYY-MM'
+ * @returns {string} Formatted date string
+ */
+const formatYearMonth = (yearMonth) => {
+  if (!yearMonth) return null
+
+  const [year, month] = yearMonth.split('-')
+  const monthNames = [
+    'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+  ]
+
+  return `${monthNames[parseInt(month) - 1]} ${year}`
+}
 </script>
 
 <style scoped>
@@ -116,7 +145,7 @@ const getDefaultIcon = (index) => {
 
 .timeline-item-card {
   border-radius: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   transition: all 0.3s ease;
 }
 
@@ -131,10 +160,11 @@ const getDefaultIcon = (index) => {
 }
 
 :deep(.v-timeline-item__body) {
-  margin-left: 16px;
+  margin-left: 8px;
 }
 
 :deep(.v-timeline-item__opposite) {
   min-width: 120px;
 }
-</style> 
+
+</style>

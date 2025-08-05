@@ -58,7 +58,18 @@
             <!-- push to the center of the height -->
             <div class="d-flex align-center" style="height: 100%;">
               <div class="px-8 w-100">
-                <h3 class="text-uppercase text-h5 text-grey-lighten-1 mb-4 font-weight-thin">Latest Updates</h3>
+                <div class="d-flex align-baseline justify-space-between mb-4">
+                  <h3 class="text-uppercase text-h5 text-grey-lighten-1 font-weight-thin mb-0">Latest Updates</h3>
+                  <v-btn 
+                    to="/news"
+                    variant="text"
+                    density="comfortable" 
+                    class="text-white text-overline nav-btn"
+                    :class="{ 'v-btn--active': $route.path === '/news' }">
+                    <v-icon left class="mr-1">mdi-newspaper-variant-outline</v-icon>
+                    News
+                  </v-btn>
+                </div>
                 <!-- Carousel Content Component -->
                 <CarouselContent />
               </div>

@@ -49,11 +49,7 @@ export default createVuetify({
           'industrial': '#90A4AE', // Burnt orange
           'aviation': '#00796B', // Forest green
           'power_pm25': '#3D3C38', // Charcoal gray
-          
-          // Background colors
-          'background': '#F5F6FA',
-          'surface': '#FFFFFF',
-          'surface-variant': '#ECE1C5',
+
           
           // Additional color palette
           'mediumBlue': '#1d466b',

@@ -187,6 +187,71 @@ A Vue component that replicates the Apache ECharts line-stack example with area 
 - Built-in sample data for demonstration
 - Customizable data structure
 
+### CityScatterBar Component
+
+A Vue component that creates an interactive visualization showing Indian cities with scatter plots that can morph into bar charts, based on the Apache ECharts map-bar-morph example.
+
+**Location**: `src/components/viz/city_scatter_bar.vue`
+
+**Features**:
+- **Dual Visualization Modes**: Toggle between scatter plot (showing population distribution) and bar chart (showing emissions data)
+- **Data Integration**: Combines city location data from GeoJSON and emissions data from CSV
+- **Interactive Controls**: Toggle button to switch between scatter and bar views
+- **Progress Tracking**: Step-by-step loading progress with detailed status messages
+- **Responsive Design**: Adapts to different screen sizes with mobile-optimized layouts
+- **Rich Tooltips**: Detailed information on hover including population, emissions, and city details
+
+**Data Sources**:
+- **City Locations**: `https://raw.githubusercontent.com/chuanlongZhou/indian_100_data/refs/heads/main/data/city/city_index.geojson`
+- **City Emissions**: `https://raw.githubusercontent.com/chuanlongZhou/indian_100_data/refs/heads/main/data/city/city_share.csv`
+
+**Scatter Plot Features**:
+- Shows cities as scatter points with size based on population
+- Color-coded by population using visual map
+- Geographic coordinates (longitude/latitude)
+- Interactive tooltips with city details
+
+**Bar Chart Features**:
+- Top 20 cities by total emissions
+- Multiple series: Total Emissions, Power, Traffic
+- Data zoom functionality for better exploration
+- Rotated labels for better readability
+
+**Usage Example**:
+```vue
+<CityScatterBar />
+```
+
+**Integration**: The component is integrated into the home page (`src/pages/index.vue`) to showcase city data visualization.
+
+### DataDownload Component
+
+A Vue component that provides a user interface for downloading CHETNA emission datasets for different Indian cities.
+
+**Location**: `src/components/UI/DataDownload.vue`
+
+**Features**:
+- **City Selection**: Dropdown menu with all available Indian cities
+- **Data Type Selection**: Choose between Time Series Data and Gridded Map Data
+- **Download Functionality**: Direct download of CSV files from the CHETNA data repository
+- **Loading States**: Visual feedback during download process
+- **Error Handling**: Graceful error handling for failed downloads
+- **Responsive Design**: Mobile-friendly interface with Vuetify components
+
+**Data Sources**:
+- **Base URL**: `https://raw.githubusercontent.com/chuanlongZhou/indian_100_data/main/data/`
+- **Time Series Data**: `summary_time_series/` folder
+- **Gridded Map Data**: `summary_grid/` folder
+
+**Available Cities**: 100 Indian cities including Delhi, Mumbai, Bengaluru, Kolkata, Hyderabad, Chennai, and more.
+
+**Usage Example**:
+```vue
+<DataDownload />
+```
+
+**Integration**: The component is integrated into the home page (`src/pages/index.vue`) to provide easy access to CHETNA datasets.
+
 ## Pages
 
 ### Methodology Page
@@ -247,10 +312,12 @@ chetna_website/
 │   ├── components/
 │   │   ├── UI/
 │   │   │   ├── TimelineComponent.vue     # Timeline display component
-│   │   │   └── method_animation.vue      # Scroll-triggered animation component
+│   │   │   ├── method_animation.vue      # Scroll-triggered animation component
+│   │   │   └── DataDownload.vue          # Data download interface component
 │   │   └── viz/
 │   │       ├── TimeSeriesPlot.vue        # Time series chart component
-│   │       └── LineStackChart.vue        # Line stack chart component
+│   │       ├── LineStackChart.vue        # Line stack chart component
+│   │       └── city_scatter_bar.vue      # City scatter/bar visualization component
 │   ├── assets/
 │   │   ├── india_fact_data/              # Energy consumption CSV files
 │   │   └── time_line.json                # Timeline data for methodology page
@@ -283,6 +350,24 @@ The project uses a consistent color palette:
 - Energy Colors: Custom colors for different energy sources
 
 ## Recent Updates
+
+### DataDownload Component Addition
+- Created new `DataDownload.vue` component for dataset download functionality
+- Extracted download logic from `index.vue` into a reusable component
+- Added loading states and error handling for better user experience
+- Implemented responsive design with Vuetify components
+- Added support for 100 Indian cities with time series and gridded map data
+- Integrated component into the home page (`src/pages/index.vue`)
+
+### CityScatterBar Component Addition
+- Created new `city_scatter_bar.vue` component for interactive city data visualization
+- Implemented dual visualization modes: scatter plot (population) and bar chart (emissions)
+- Added data integration from GeoJSON (city locations) and CSV (emissions data)
+- Integrated component into the home page (`src/pages/index.vue`)
+- Added progress tracking with step-by-step loading indicators
+- Implemented responsive design with mobile-optimized layouts
+- Added rich tooltips with detailed city information
+- Based on Apache ECharts map-bar-morph example with scatter plot adaptation
 
 ### MethodPopup Component Addition
 - Created new `MethodPopup.vue` component for displaying detailed methodology information
